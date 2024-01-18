@@ -81,7 +81,7 @@ class Textos extends React.Component {
     const entrada = this.state.input;
     return (
       <>
-       <div class="editor"><h4>Editor</h4>
+       <div className="editor"><h4 style={{margin:"0px", backgroundColor:"#4AA3A3", boxShadow:"0px 0px 10px rgba(0, 0, 0, 0.5)", borderBottom: "1px solid black", padding: "5px"}}>Editor</h4>
         <textarea className="textarea" className="editor"  id="editor"  onChange={this.handleChange} value={this.state.input}/>
       </div>
  <Post propiedad={this.state.input} />

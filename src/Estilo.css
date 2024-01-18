@@ -2,12 +2,7 @@ body
 {   background-color: #87B5B5;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font: normal normal normal 1rem/1.6 Nunito Sans, Helvetica, Arial, sans-serif;}
-h4 
-{   margin: 0px;
-    background-color: #4AA3A3;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-    border-bottom: 1px solid black;
-    padding: 5px;}
+
 .editor
 {   display:flow-root;
     border: 1px solid black;
