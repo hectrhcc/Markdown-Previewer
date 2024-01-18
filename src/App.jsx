@@ -77,23 +77,15 @@ class Textos extends React.Component {
     });
   }
 
-  componentDidMount() {
-    this.renderPreview();
-  }
-
-  componentDidUpdate() {
-    this.renderPreview();
-  }
-
-  renderPreview() {
-    ReactDOM.render(<Post propiedad={this.state.input} />, document.getElementById('preview'));
-  }
   render() {
     const entrada = this.state.input;
     return (
       <>
-        <textarea className="textarea" onChange={this.handleChange} value={this.state.input}/>
-      </>
+       <div class="editor">                       <h4>Editor</h4>
+        <textarea className="textarea" className="editor"  id="editor" className="textarea" onChange={this.handleChange} value={this.state.input}/>
+      </div>
+ <Post propiedad={this.state.input} />
+        </>
     );
   }
 };
@@ -103,12 +95,14 @@ class Textos extends React.Component {
 const Post = (props) => {
   
   return (
-    <div
+    <div className="previsual"> 
+    <h4>Previewer</h4>
+    <div 
     dangerouslySetInnerHTML={{
       __html: marked(props.propiedad, { renderer: renderer })
     }}
-     />
+      id="preview" />
+      </div>
   );
 }
-ReactDOM.render(<Textos  />, document.getElementById('editor'));
-
+ReactDOM.render(<Textos  />, document.getElementById('root'));
