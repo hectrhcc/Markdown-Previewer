@@ -96,7 +96,7 @@ const Post = (props) => {
   
   return (
     <div className="previsual"> 
-    <h4>Previewer</h4>
+    <h4 style={{margin:"0px", backgroundColor:"#4AA3A3", boxShadow:"0px 0px 10px rgba(0, 0, 0, 0.5)", borderBottom: "1px solid black", padding: "5px"}}>Previewer</h4>
     <div 
     dangerouslySetInnerHTML={{
       __html: marked(props.propiedad, { renderer: renderer })
