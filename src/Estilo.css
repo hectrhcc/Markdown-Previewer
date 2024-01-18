@@ -3,7 +3,6 @@ body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font: normal normal normal 1rem/1.6 Nunito Sans, Helvetica, Arial, sans-serif;
 }
-
 h4 {
     margin: 0px;
     background-color: #4AA3A3;
@@ -20,7 +19,6 @@ h4 {
     border:0px;
     outline: none; 
 }
-
 #editor{
     margin: 0px;
     width: 99%;
@@ -36,54 +34,43 @@ margin: 20px auto;
 width:65%;
 background-color:#C0D8D8;
 }
-
 .previsual > *:not(h4) {
     padding-left: 1.5em;
-  }
-
-
-
+}
 .textarea{
     width: 99%;
     height:100%;
     border:0px;
-    resize: none; /*deshabilita el dimensionado */
+    resize: none; 
 }
-
 table {
     border-collapse: collapse;
-  }
-
+}
 td,th {
     border: 1px solid black;
     padding-left: 5px;
     padding-right: 5px;
   }
-
-  code{
+code{
     background: white;
     font-size: 0.875rem;
     font-weight: bold;
   }
-
 h1,h2 {
     border-bottom: 1px solid black;
 }
-
 img {
     display: block;
     max-width: 80%;
     margin: 2rem auto;
 }
-
 blockquote {
     color: rgba(0, 0, 0, .5);
     padding-left: 1.5em;
     padding-right: 1.5em;
     border-left: 5px solid rgba(0, 0, 0, .075);
   }
-
-  pre {
+pre {
     display: block;
     overflow: auto;
     background: white;
