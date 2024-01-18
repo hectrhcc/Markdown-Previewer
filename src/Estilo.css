@@ -17,16 +17,17 @@ h4 {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     width:50%;
     margin: 0 auto;
-    
+    border:0px;
+    outline: none; 
 }
 
 #editor{
     margin: 0px;
-    width: 100%;
+    width: 99%;
     height: 160px;
-    overflow: hidden; /*ya esta el scroll en el textarea asi que 2 no sirve*/
     overflow-x: none;
-    
+    overflow-y:scroll;
+    background-color:#C0D8D8;
 }
 .previsual {
 border: 1px solid black;
@@ -46,9 +47,6 @@ background-color:#C0D8D8;
     width: 99%;
     height:100%;
     border:0px;
-    background-color:#C0D8D8;
-    overflow-y:scroll; /*para que se vea aunque no haya pasado el limite*/
-    outline: none; 
     resize: none; /*deshabilita el dimensionado */
 }
 
