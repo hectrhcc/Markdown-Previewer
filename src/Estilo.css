@@ -78,7 +78,7 @@ pre
     width:77%;
 }
 
-@media(min-width:375px) and (max-width:765px)
+@media(min-width:375px) and (max-width:389px)
 {
     .textarea{
         max-width: 95%;
