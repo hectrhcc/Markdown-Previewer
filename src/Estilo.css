@@ -77,8 +77,12 @@ pre
     .editor{   
     width:77%;
 }
-.textarea{
-    max-width: 97.5%;
+
+@media(min-width:375px) and (max-width:765px)
+{
+    .textarea{
+        max-width: 95%;
+    }
 }
 
 }
